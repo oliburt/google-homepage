@@ -1,6 +1,6 @@
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
-This is a The Odin Project mini-project on deconstructing and rebuilding an existing webpage.
+This is a The Odin Project mini-project on deconstructing and rebuilding an existing webpage (Google.com).
 
 The focuses in this project are:
 1. To familiarise myself with good implementation of HTML and CSS
@@ -8,8 +8,11 @@ The focuses in this project are:
 
 
 Post completion:
-    What have I learnt:
+    Skills Learnt:
+        -Put an icon next to the title in the head bar.
+            -tag: <link>; attributes: rel="icon", type="image/..."(jpg/png/etc.), href="..."
 
+        -
 
     Reflection:
 
