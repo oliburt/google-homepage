@@ -1,0 +1,15 @@
+html, body {
+    font-size: small;
+    height: 100%;
+    margin: 0;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-block;
+}
+
+.nav-left {
+    display: inline-block;
+}
