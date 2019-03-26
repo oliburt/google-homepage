@@ -1,28 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Google</title>
-        <link rel="icon" type="image/png" href="images/google-logo.png">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <meta name="description" content="Google homepage clone for practice. Project from The Odin Project">
+        <meta name="author" content="Oliver Burt">
+        <meta cahrset="UTF-8">
+
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
     </head>
     <body>
         <div id='nav-bar'>
-            <div class='nav-left'>
+            <div class='navbar left'>
                 <a href="#">About</a>
                 <a href="#">Store</a>
             </div>
-            <div class='nav-right'>
-
+            <div class='navbar right'>
+                <a id="gmail" href="#">Gmail</a>
+                <a id="images" href="#">Images</a>
+                <a id="google-apps" href="#"><i class="fas fa-th"></i></a>
+                <a id="google-account" href="#"><img src="images/google-account.jpg" alt="Google Account"></a>                
             </div>
         </div><!-- nav-bar -->
-        <div id='logo'></div><!-- logo -->
+
+        <div id='logo'>
+            <img src="images/logo.png" alt="Google Logo">
+        </div><!-- logo -->
+
         <div id="searchform">
-            <form action="/search" method="GET" style="overflow: visible">
-                
+            <form action="/search" method="GET" style="overflow: visible" name="search" role="search">
+                <input type="text" name="search-input" maxlength="2048" title="Search">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
             </form>
         </div>
-        <div id='location'></div><!-- location -->
-        <div id='footer'></div><!-- footer -->
+
+        <div id='footer'>
+        <div id='location'>
+            <span>United Kingdom</span>
+        </div><!-- location -->
+
+        <span class="footer left">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+        </span>
+        
+        <span class="footer right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+        </span>
+        
+            
+        </div><!-- footer -->
     </body>
 
 </html>

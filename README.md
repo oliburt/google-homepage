@@ -9,10 +9,12 @@ The focuses in this project are:
 
 Post completion:
     Skills Learnt:
-        -Put an icon next to the title in the head bar.
-            -tag: <link>; attributes: rel="icon", type="image/..."(jpg/png/etc.), href="..."
+        -Put a favicon next to the title in the head bar.
+            -tag: <link>; attributes: rel="shortcut icon", type="image/..."(jpg/png/etc.), href="..."
 
-        -
+        -Font Awesome
+            -easy way to add different icons
+            -used font awesome to add apps icon in navbar
 
     Reflection:
 

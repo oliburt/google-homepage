@@ -1,15 +1,62 @@
+/* Global*/
 html, body {
-    font-size: small;
     height: 100%;
     margin: 0;
+    font-size: small;
 }
 
-.nav-left a {
+body {
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+}
+
+a {
+    cursor: pointer;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.87);
+    color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #660099;
+}
+
+/* Navbar*/
+
+.fas {
+    font-size: 20px;
+    color: #000;
+}
+
+.left, .right {
     display: inline-block;
 }
 
-.nav-left {
-    display: inline-block;
+#google-apps {
+    opacity: .55;
 }
+
+#google-account img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+/* Logo*/
+
+
+
+/* Search bar*/
+
+
+
+
+/* Locations*/
+
+
+
+/* Footer*/
