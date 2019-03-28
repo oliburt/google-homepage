@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     
     </head>
+
+
     <body>
         <div id='nav-bar'>
             <div class='navbar left'>
@@ -32,9 +34,14 @@
 
         <div id="searchform">
             <form action="/search" method="GET" style="overflow: visible" name="search" role="search">
-                <input type="text" name="search-input" maxlength="2048" title="Search">
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
+                <div class="search-box-outline">
+                    <input type="text" name="search-input" maxlength="2048" title="Search">
+                    <span class="voice-search"></span>
+                </div>
+                <div class="search-buttons">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </div>
             </form>
         </div>
 
